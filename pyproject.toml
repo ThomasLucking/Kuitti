@@ -1,7 +1,7 @@
 [project]
 name = "scry"
 version = "0.1.0"
-description = "Add your description here"
+description = "Receipt scanner: Tesseract OCR on phone scans to track spending"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -9,3 +9,7 @@ dependencies = [
     "fastapi>=0.161.1",
     "sqlalchemy>=2.1.6",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
