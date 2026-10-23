@@ -1,5 +1,5 @@
 {
-  "name": "scry-backend",
+  "name": "kuitti-backend",
   "private": true,
   "type": "module",
   "scripts": {
